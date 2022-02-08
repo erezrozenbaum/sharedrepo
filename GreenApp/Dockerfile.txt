@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 #Adding custom index.html hosted on Github
-ADD https://raw.githubusercontent.com/erezrozenbaum/sharedrepo/main/My-Blue-App.html /usr/share/nginx/html/
+ADD https://raw.githubusercontent.com/erezrozenbaum/sharedrepo/main/My-Green-App.html /usr/share/nginx/html/
 
 #Adding read permissions to custome index.html
 RUN chmod +r /usr/share/nginx/html/index.html
