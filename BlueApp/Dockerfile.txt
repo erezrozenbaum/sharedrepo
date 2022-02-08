@@ -1,0 +1,4 @@
+#base image - nginx with lag latest
+FROM nginx:latest
+
+#
